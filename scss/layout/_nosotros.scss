@@ -1,0 +1,64 @@
+/* NOSOTROS NOSOTROS NOSOTROS NOSOTROS NOSOTROS */
+
+.nosotros{
+    background-color: #d8d8d8;
+    display: inline-block;
+    width: 100%;
+}
+
+.nosotros img{
+    display: inline-block;
+    width: 40%;
+    height: 1100px;
+    object-fit: cover;
+    padding: 70px;
+    margin-left: 110px;
+    transition: transform 0.3s ease-out;
+}
+
+.nosotros img:hover{
+    transform: scale(1.05);
+}
+
+.nosotrosContenido{
+    display: inline-block;
+    width: 49%;
+    padding: 50px;
+    vertical-align: top;
+    margin: 30px 0px 30px 60px;
+}
+
+.nosotrosContenido a{
+    color: #3cabaf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nosotrosContenido a:hover{
+    color: #1a727e;
+    font-size: 28px;
+}
+
+.nosotrosContenido h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #141414;
+    margin: 30px 0;
+    font-family: 'Francois One', sans-serif;
+}
+
+.nosotrosContenido h2{
+    font-size: 50px;
+    font-weight: bold;
+    color: #141414;
+    margin: 30px 0;
+    font-family: 'Francois One', sans-serif;
+}
+
+.nosotrosContenido p{
+    font-size: 24px;
+    color: #303030;
+    margin: 30px 0;
+    margin-bottom: 40px;
+    font-family: "Roboto", Mono; 
+}

@@ -1,0 +1,49 @@
+// NAV
+
+.navbar-brand{
+    font-family: 'Francois One', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 30px;
+    color: #d8d8d8;
+}
+
+
+.navbar{
+    font-size: 22px;
+    font-family: 'Francois One', sans-serif;
+    background-color: #1d1d1d;
+    padding: 20px 0px;
+}
+
+.nav-item a{
+    padding-left: 5px;
+    transition: 0.4s;
+}
+
+.nav-item:hover{
+    font-size: 24px;
+
+}
+
+
+.contactoAncla{
+    background-color: #5ed0d4;
+    border-radius: 10px;
+    border: solid 0.5px #303030;
+    margin-right: 30px;
+}
+
+.dropdown-menu{
+    background-color: #1b1b1b;
+}
+
+.dropdown-menu li a{
+    color: #fff;
+    font-size: 16px;
+}
+
+.dropdown-divider{
+    background-color: #fff;
+    margin: 8px;
+}

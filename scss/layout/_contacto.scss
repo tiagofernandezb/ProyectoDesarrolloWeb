@@ -1,0 +1,73 @@
+/* CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO CONTACTO  */
+
+.contacto h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #141414;
+    /* margin: 30px 0; */
+    font-family: 'Francois One', sans-serif;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contacto p{
+    font-size: 24px;
+    color: #111111;
+    font-family: 'Arvo', serif;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 0px 40px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    color: #fff1e8;
+    padding: 20px 20px;
+    margin-top: 80px;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    font-family: 'Francois One', sans-serif;
+    border: solid 2px #1d1d1d;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: #303030;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#mensaje, #email, #nombre{
+    border: 1px solid #303030;
+}
+
+.contactoBody{
+    background-color: #d8d8d8;
+}

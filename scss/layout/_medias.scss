@@ -1,0 +1,152 @@
+// MEDIAQUERIES
+
+/* mediaquerie desktop */
+
+@media screen and (max-width: 1024px){
+
+}
+
+/* mediaquerie para tablet */
+
+@media screen and (max-width: 768px){
+
+}
+
+/* mediaquerie para mobile */
+
+@media screen and (max-width: 480px) {
+    
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28170, 170, 170, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    }
+
+    .navbar-brand{
+        font-family: 'Francois One', sans-serif;
+        font-style: italic;
+    }
+    
+    .navbar-toggler{
+        border: 1px solid #d8d8d8;
+    }
+
+    .inicioImagenes{
+        width: 100%;
+    }
+
+    .inicioImagenes img{
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
+    }
+
+    .c-item{
+        height: 300px;
+        margin-bottom: 30px;
+    }
+
+    .dropdown-menu{
+        margin-bottom: 15px;
+    }
+
+    .dropdown-menu li a{
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+
+    .contactoAncla{
+        text-align: center;
+    }
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inicioContenido{
+        margin: 0px;
+        padding: 50px;
+        width: 100%;
+    }
+
+    .inicioContenido h1{
+        text-align: center;
+        margin: 0px;
+        font-size: 40px;
+    }
+
+    .inicioContenido p{
+        text-align: center;
+    }
+
+    .inicioContenido a{
+        text-align: start;
+        font-size: 24px;
+    }
+
+    .nosotros{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nosotrosContenido{
+        width: auto;
+        margin: 0px;
+    }
+
+    .nosotros img{
+        width: 100%;
+        height: 600px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nosotrosContenido h1{
+        font-size: 42px;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nosotrosContenido h2{
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .nosotrosContenido p{
+        text-align: center;
+    }
+
+    .galeria{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        grid-gap: 10px;
+
+    }
+
+    .galeriaTitulo{
+        font-size: 40px;
+        margin: 0px 20px;
+    }
+
+    .galeria img{
+        width: 150px;
+        height: 150px;
+    }
+
+
+    .contacto h1{
+        font-size: 42px;
+        text-align: center;
+    }
+
+    .contacto p{
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    form{
+        margin: 30px;
+    }
+
+}

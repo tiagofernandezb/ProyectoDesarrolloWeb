@@ -1,0 +1,49 @@
+// FOOTER
+
+
+footer {
+    background-color: #1a1a1a;
+    color: #fff1e8;
+    padding: 35px 25px;
+    font-family: "Roboto", Mono; 
+    font-weight: bold;
+    display: flex;
+    justify-content: center;   
+    }
+
+
+.derechos{
+    position: absolute;
+    margin-top: 80px;
+    font-size: 16px;
+}
+
+.red{
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 45px;
+    background-color: #303030;
+    border-radius: 40%;
+}
+
+.footerRedes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerRedes a{
+    margin-bottom: 30px;
+}
+
+.footerRedes img{
+    object-fit: cover;
+    transition: transform 0.3s ease-out;
+}
+
+.footerRedes img:hover{
+    transform: scale(1.1);
+}
+
