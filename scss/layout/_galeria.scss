@@ -12,11 +12,9 @@
 }
 
 .galeria{
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 40px;
-    gap: 10px;
+display: flex; 
+margin: 40px;
+    @include flex(wrap,center,10px)
 }
 
 .galeria img {
