@@ -12,8 +12,8 @@
 }
 
 .galeria{
-display: flex; 
-margin: 40px;
+    display: flex; 
+    margin: 40px;
     @include flex(wrap,center,10px)
 }
 
