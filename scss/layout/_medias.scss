@@ -29,15 +29,7 @@
         border: 1px solid $main-color;
     }
 
-    .inicioImagenes{
-        width: 100%;
-    }
 
-    .inicioImagenes img{
-        height: 250px;
-        width: 250px;
-        border-radius: 10px;
-    }
 
     .c-item{
         height: 300px;
@@ -57,16 +49,14 @@
         text-align: center;
     }
 
-    .inicio{
-        display: flex;
-        flex-direction: column;
-    }
+.inicio{
+    display: flex;
+    flex-direction: column;
+}
 
-    .inicioContenido{
-        margin: 0px;
-        padding: 50px;
-        width: 100%;
-    }
+.inicioContenido{
+    width: 100%;
+}
 
     .inicioContenido h1{
         text-align: center;
@@ -81,6 +71,16 @@
     .inicioContenido a{
         text-align: start;
         font-size: 24px;
+    }
+
+.inicioImagenes{
+    flex: 100%;
+}
+
+    .inicioImagenes img{
+        height: 250px;
+        width: 250px;
+        border-radius: 10px;
     }
 
     .nosotros{

@@ -304,7 +304,7 @@ input[type=submit]:hover {
 
 .nosotrosContenido {
   display: inline-block;
-  width: 49%;
+  width: 45%;
   padding: 50px;
   vertical-align: top;
   margin: 30px 0px 30px 60px;
@@ -359,14 +359,6 @@ input[type=submit]:hover {
   .navbar-toggler {
     border: 1px solid #d8d8d8;
   }
-  .inicioImagenes {
-    width: 100%;
-  }
-  .inicioImagenes img {
-    height: 250px;
-    width: 250px;
-    border-radius: 10px;
-  }
   .c-item {
     height: 300px;
     margin-bottom: 30px;
@@ -386,8 +378,6 @@ input[type=submit]:hover {
     flex-direction: column;
   }
   .inicioContenido {
-    margin: 0px;
-    padding: 50px;
     width: 100%;
   }
   .inicioContenido h1 {
@@ -401,6 +391,14 @@ input[type=submit]:hover {
   .inicioContenido a {
     text-align: start;
     font-size: 24px;
+  }
+  .inicioImagenes {
+    flex: 100%;
+  }
+  .inicioImagenes img {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
   }
   .nosotros {
     margin: 0px;
