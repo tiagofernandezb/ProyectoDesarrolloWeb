@@ -50,36 +50,36 @@
 main .inicio{
     display: flex;
     flex-direction: column;
-    }
-
-.inicioContenido{
-    width: 100%;
-    }
-
-    .inicioContenido h1{
-        text-align: center;
-        margin: 0px;
-        font-size: 40px;
-    }
-
-    .inicioContenido p{
-        text-align: center;
-    }
-
-    .inicioContenido a{
-        text-align: start;
-        font-size: 24px;
-    }
-
-.inicioImagenes{
-    flex: 100%;
-    }
-
-    .inicioImagenes img{
-        height: 250px;
-        width: 250px;
-        border-radius: 10px;
-    }
+    
+    .inicioContenido{
+        width: 100%;
+        }
+    
+        .inicioContenido h1{
+            text-align: center;
+            font-size: 40px;
+        }
+    
+        .inicioContenido p{
+            text-align: center;
+        }
+    
+        .inicioContenido a{
+            margin-left: 50px;
+            font-size: 24px;
+        }
+    
+    .inicioImagenes{
+        flex: 100%;
+        }
+    
+        .inicioImagenes img{
+            height: 300px;
+            width: 300px;
+            border-radius: 10px;
+            margin-left: 40px;
+        }
+}
 
     .nosotros{
         margin: 0px;

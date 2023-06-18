@@ -106,6 +106,12 @@ footer {
 }
 
 /* main */
+.dropdown-menu {
+  position: absolute;
+  overflow: auto;
+  z-index: 20;
+}
+
 main {
   margin-bottom: 50px;
   min-height: 100vh;
@@ -119,7 +125,7 @@ main .inicio {
 main .inicio .inicioImagenes {
   border-radius: 20px;
   justify-content: center;
-  margin-top: 80px;
+  margin-top: 120px;
   background-color: #cccccc;
 }
 main .inicio .inicioContenido {
@@ -153,7 +159,7 @@ main .inicio .inicioContenido p {
   font-family: "Arvo", serif;
 }
 main .inicio .inicioContenido a {
-  color: #3cabaf;
+  color: #000000;
   padding: 0px 5px;
   font-size: 24px;
   font-weight: bold;
@@ -161,7 +167,7 @@ main .inicio .inicioContenido a {
   transition: 0.3s;
 }
 main .inicio .inicioContenido a:hover {
-  color: #1a727e;
+  color: #2f3030;
   font-size: 28px;
 }
 main .c-item {
@@ -183,7 +189,7 @@ main .c-img {
   text-align: center;
   background-color: #d8d8d8;
   padding: 20px 0px 40px 0px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .galeria {
@@ -311,13 +317,13 @@ input[type=submit]:hover {
 }
 
 .nosotrosContenido a {
-  color: #3cabaf;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
 }
 
 .nosotrosContenido a:hover {
-  color: #1a727e;
+  color: #2c2c2c;
   font-size: 28px;
 }
 
@@ -377,28 +383,28 @@ input[type=submit]:hover {
     display: flex;
     flex-direction: column;
   }
-  .inicioContenido {
+  main .inicio .inicioContenido {
     width: 100%;
   }
-  .inicioContenido h1 {
+  main .inicio .inicioContenido h1 {
     text-align: center;
-    margin: 0px;
     font-size: 40px;
   }
-  .inicioContenido p {
+  main .inicio .inicioContenido p {
     text-align: center;
   }
-  .inicioContenido a {
-    text-align: start;
+  main .inicio .inicioContenido a {
+    margin-left: 50px;
     font-size: 24px;
   }
-  .inicioImagenes {
+  main .inicio .inicioImagenes {
     flex: 100%;
   }
-  .inicioImagenes img {
-    height: 250px;
-    width: 250px;
+  main .inicio .inicioImagenes img {
+    height: 300px;
+    width: 300px;
     border-radius: 10px;
+    margin-left: 40px;
   }
   .nosotros {
     margin: 0px;

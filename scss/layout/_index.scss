@@ -1,5 +1,11 @@
 /* main */
 
+.dropdown-menu{
+    position: absolute;
+    overflow: auto;
+    z-index: 20;
+}
+
 main{
     margin-bottom: 50px;
     min-height: 100vh;
@@ -13,7 +19,7 @@ main{
         .inicioImagenes {
             border-radius: 20px;
             justify-content: center;
-            margin-top: 80px;
+            margin-top: 120px;
             background-color: #cccccc;
         }
         
@@ -53,7 +59,7 @@ main{
         }
         
         .inicioContenido a{
-            color: #3cabaf;
+            color: #000000;
             padding: 0px 5px;
             font-size: 24px;
             font-weight: bold;
@@ -62,7 +68,7 @@ main{
         }
         
         .inicioContenido a:hover{
-            color: #1a727e;
+            color: #2f3030;
             font-size: 28px;
         }
     }

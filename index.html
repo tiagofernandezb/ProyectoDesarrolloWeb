@@ -7,6 +7,8 @@
     <!-- seo meta tags -->
     <meta name="description" content="Creamos zapatos para mujeres que sean versátiles y cómodos, para que puedan ser usados en cualquier momento y lugar. Alcance nacional.">
     <meta name="keywords" content="zapatos, botas, moda, mujeres">
+    <!-- link animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!-- link bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- link css -->
@@ -19,7 +21,7 @@
     <header>
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand text-light" href="index.html">
+            <a class="navbar-brand text-light animate__animated animate__backInLeft animate__faster" href="index.html">
             lula shoes
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,22 +29,20 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item px-1">
+                <li class="nav-item px-1 animate__animated animate__backInLeft animate__faster">
                 <a class="nav-link active text-light" aria-current="page" href="index.html">INICIO</a>
                 </li>
-                <li class="nav-item px-1">
+                <li class="nav-item px-1 animate__animated animate__backInLeft animate__faster">
                 <a class="nav-link active text-light" aria-current="page" href="./pages/nosotros.html">NOSOTROS</a>
-                </li>
-                <li class="nav-item dropdown px-1">
-                <a class="nav-link dropdown-toggle text-light" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    PRODUCTOS
-                </a>
-                <ul class="dropdown-menu p-3">
-                    <li><a class="dropdown-item" href="./pages/galeria.html">Botas largas</a></li>
-                    <li><a class="dropdown-item" href="./pages/galeria.html">Botas Cortas</a></li>
-                </ul>
-                </li>
-                <li class="nav-item contactoAncla">
+                    <li class="nav-item dropdown px-1 animate__animated animate__backInLeft animate__faster">
+                    <a class="nav-link active dropdown-toggle text-light" aria-current="page" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        PRODUCTOS
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./galeria.html">Botas largas</a></li>
+                    </ul>
+                    </li>
+                <li class="nav-item contactoAncla animate__animated animate__backInLeft animate__faster">
                     <a class="nav-link active"href="./pages/contacto.html">CONTACTO</a>
                 </li>
             </ul>
@@ -76,11 +76,10 @@
 
     <section class="inicio">
         <div class="inicioContenido">
-            <h1>LULA SHOES</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam facilis neque, facere voluptatum pariatur eligendi quam tempora corrupti, quibusdam minus suscipit architecto, corporis eum deleniti tenetur vel obcaecati labore.
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus error nesciunt impedit obcaecati! Temporibus porro dolores quidem voluptatem asperiores hic corrupti excepturi expedita eaque ad harum, ipsum obcaecati, veniam earum?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil deleniti quaerat nobis quia, nostrum tempore aperiam facilis omnis, et recusandae quidem iste fugiat iure nisi provident architecto eligendi nesciunt error!</p>
-            </p>
+            <h1 class="animate__animated animate__bounceIn">LULA SHOES</h1>
+            <p>Lula Shoes es un emocionante emprendimiento que nació de la pasión por la moda y el deseo de crear calzado de alta calidad y estilo único. Somos un equipo de diseñadores y artesanos apasionados por la creación de zapatos elegantes y duraderos. Surgimos con la visión de ofrecer una opción de calzado que combine moda y comodidad para mujeres de todas las edades. </p>
+            <p>Nos especializamos en la venta de botas de alta calidad y estilo vanguardista. Nuestro catálogo incluye una amplia variedad de estilos, desde botas de cuero clásicas hasta diseños más vanguardistas y coloridos. Cada par de botas está cuidadosamente elaborado utilizando los mejores materiales y técnicas de fabricación de calzado, lo que garantiza su durabilidad y comodidad a lo largo del tiempo</p>
+            <p>Además de ofrecer una amplia gama de botas, en Lula Shoes nos enorgullece brindar un excelente servicio al cliente. Nuestro equipo está comprometido en satisfacer las necesidades y gustos de nuestros clientes, brindando asesoramiento personalizado y asegurándose de que cada compra sea una experiencia gratificante. </p>
             <a href="./pages/nosotros.html">Saber más.</a>
         </div>
         <div class="inicioImagenes shadow-lg p-3 mb-5 rounded">
