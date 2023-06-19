@@ -127,6 +127,7 @@ main .inicio .inicioImagenes {
   justify-content: center;
   margin-top: 120px;
   background-color: #cccccc;
+  height: 750px;
 }
 main .inicio .inicioContenido {
   padding: 80px;
@@ -140,7 +141,7 @@ main .inicio .inicioImagenes img {
   border-radius: 20px;
 }
 main .inicio .inicioImagenes img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 main .inicio .inicioContenido h1 {
   font-size: 60px;
@@ -171,7 +172,7 @@ main .inicio .inicioContenido a:hover {
   font-size: 28px;
 }
 main .c-item {
-  height: 640px;
+  height: 740px;
   margin-bottom: 30px;
 }
 main .c-img {
@@ -203,7 +204,7 @@ main .c-img {
 
 .galeria img {
   width: 300px;
-  height: auto;
+  height: 350px;
   border-radius: 6px;
   box-shadow: 0 2px 5px #333;
   object-fit: cover;
