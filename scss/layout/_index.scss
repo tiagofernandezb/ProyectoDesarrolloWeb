@@ -1,11 +1,5 @@
 /* main */
 
-.dropdown-menu{
-    position: absolute;
-    overflow: auto;
-    z-index: 20;
-}
-
 main{
     margin-bottom: 50px;
     min-height: 100vh;
@@ -77,13 +71,17 @@ main{
     .c-item{
         height: 740px;
         margin-bottom: 30px;
+        filter: brightness(1);
     }
     
     .c-img{
-        height: 100%;
         object-fit: fill;
-        filter: brightness(0.8);
+        height: 100%;
     }
+
+    .carousel{
+    z-index: -1;
+}
 }
 
 

@@ -106,12 +106,6 @@ footer {
 }
 
 /* main */
-.dropdown-menu {
-  position: absolute;
-  overflow: auto;
-  z-index: 20;
-}
-
 main {
   margin-bottom: 50px;
   min-height: 100vh;
@@ -174,11 +168,14 @@ main .inicio .inicioContenido a:hover {
 main .c-item {
   height: 740px;
   margin-bottom: 30px;
+  filter: brightness(1);
 }
 main .c-img {
-  height: 100%;
   object-fit: fill;
-  filter: brightness(0.8);
+  height: 100%;
+}
+main .carousel {
+  z-index: -1;
 }
 
 /* GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA  */
@@ -204,7 +201,7 @@ main .c-img {
 
 .galeria img {
   width: 300px;
-  height: 350px;
+  height: 300px;
   border-radius: 6px;
   box-shadow: 0 2px 5px #333;
   object-fit: cover;
