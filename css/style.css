@@ -363,9 +363,8 @@ input[type=submit]:hover {
   .navbar-toggler {
     border: 1px solid #d8d8d8;
   }
-  .c-item {
-    height: 300px;
-    margin-bottom: 30px;
+  main .c-item {
+    height: 400px;
   }
   .dropdown-menu {
     margin-bottom: 15px;
