@@ -387,8 +387,11 @@ input[type=submit]:hover {
     text-align: center;
     font-size: 40px;
   }
-  main .inicio .inicioContenido p {
-    text-align: center;
+  main .inicio .indexp1 {
+    text-align: start;
+  }
+  main .inicio .indexp2 {
+    text-align: end;
   }
   main .inicio .inicioContenido a {
     margin-left: 50px;
